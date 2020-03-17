@@ -7,8 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-
+    <link href="css/video.css" rel="stylesheet" type="text/css" />
+    
     <title>Kc Resume</title>
   </head>
   <body>
@@ -24,9 +26,25 @@
             <a class="cta" href="#"><button>Contact</button></a>
     </header>
 
-    <div id="body">
-        
-    </div>
+
+        <!-- herovid -->
+        <div class="row mt-1" id="hero">
+            <header>
+              <div class="overlay"></div>
+              <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="kc.mp4" type="video/mp4">
+              </video>
+              <div class="container h-100">
+                <div class="d-flex h-100 text-center align-items-center">
+                  <div class="w-100 text-white">
+                    <h1 class="display-3" style="font-family:'Montserrat'">Front-End Developer</h1>
+                    <p class="lead mb-0" style="font-family:'Montserrat'">KC</p>
+                  </div>
+                </div>
+              </div>
+            </header>
+          </div>
+
 
     <div id="body2">
         
@@ -41,8 +59,8 @@
             <li><a href="#"><img class="skill" src="images/django.svg" alt="skill"></a></li>
         </ul>
     </div>
-
-    <section> 
+    </div>
+    <section id="info"> 
         <div class='content' id="fire">
             <h2>Web Development</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet est ut metus ultricies luctus eu at turpis. Mauris luctus ligula tortor, eget congue nibh ullamcorper ut. Nunc efficitur arcu eget ex sagittis, sed varius tortor pharetra. Sed ut justo non lacus blandit elementum a ut elit. In sodales velit leo, et condimentum metus tristique eget. Quisque bibendum accumsan condimentum. Cras id sem vel eros mollis finibus. Quisque semper diam quam, vitae bibendum augue rutrum non. Praesent a pretium arcu. Quisque pharetra lacinia massa, a volutpat odio viverra ut. Ut risus mauris, tincidunt non quam vel, molestie finibus lacus. Sed id ligula ut tortor consequat rutrum eget in orci. Nunc sit amet arcu a nibh sollicitudin fringilla. Etiam ac semper metus.</p>
@@ -62,14 +80,24 @@
     </section>
 
 
+    <!--start gallery-->
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div> 
     </div>
-
-
+      <!--end gallery-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   
   </body>
 </html>
