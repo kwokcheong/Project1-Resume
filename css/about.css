@@ -1,7 +1,7 @@
 #raw-img{
     display: flex;
     justify-content: space-evenly;
-    margin-left: -10rem;
+    margin-left: -5rem;
     padding: 0;
 }
 
@@ -12,8 +12,13 @@
     padding: 0;
 }
 
-
-
 #second{
+    justify-content: flex-start;
     background-color: rgb(0, 0, 32);
+    
+
+}
+
+#second div{
+    color: white;
 }
