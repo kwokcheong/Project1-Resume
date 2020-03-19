@@ -30,7 +30,7 @@ header{
 
 .logo{
     cursor: pointer;
-    height: 55px;
+    height: 80px;
     margin-top: 2px;
 }
 
@@ -333,4 +333,34 @@ h3{
 
 .xop-info p{
     font-family: "Montserrat";
+}
+
+footer{
+    background-color: whitesmoke;
+    padding: 90px 0;
+}
+
+.footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media{
+    margin: 20px 0;
+}
+
+.social-media a{
+    color: #001a21;
+    margin-right: 40px;
+    font-size: 46px;
+    text-decoration: none;
+    transition: .3s linear;
+}
+
+.social-media a:hover{
+    color: #fc5c65;
 }
