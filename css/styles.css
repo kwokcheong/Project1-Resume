@@ -88,15 +88,46 @@ button:hover{
     padding: 10px 15px;
 }
 
+@media (max-width: 2560px){
+    .code__skills img{
+        margin-top: 6px;
+        height: 90px;
+        width: auto;
+        padding: 2px 70px;
+    }
+}
+
+@media (max-width: 1024px){
+    .code__skills img{
+        margin-top: 6px;
+        height: 90px;
+        width: auto;
+        padding: 1px 8px;
+    }
+}
+
+@media (max-width: 1440px){
+    .code__skills img{
+        margin-top: 6px;
+        height: 90px;
+        width: auto;
+        padding: 2px 25px;
+    }
+}
+
 @media (max-width: 768px){
     .code__skills img{
         margin-top: 6px;
         height: 90px;
         width: auto;
-        padding: 1px 0.01px;
+        padding: 12px 0.01px;
     }
 }
-
+@media (max-width: 425px){
+    #body2{
+        display:none;
+    }
+}
 
 .code__skills li{
     display: inline-block;
@@ -256,6 +287,8 @@ body{
     max-width: 1800px;
     margin: 0 auto;
     padding: 6% 2%;
+    background-color: #2f3542;
+    border-radius: 5em;
 }
 
 .xop-grid {
@@ -313,7 +346,7 @@ body{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(https://i.ytimg.com/vi/c8wswUEfnrQ/maxresdefault.jpg);
 }
 .xop-img-6{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(https://cdnl.tblsft.com/sites/default/files/pages/covid-19.png);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(https://lh3.googleusercontent.com/proxy/JHhOHpifIzNnuHbbHLbmIDr9Yi-QytIpLsGdpUM8M2qGKWtsYqZZt56OFdb4knF60K_kYbZa8micCOuVgpz7YG-b);
 }
 
 .xop-info{

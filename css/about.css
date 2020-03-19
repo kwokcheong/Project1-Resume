@@ -36,7 +36,7 @@
   
   
   .card{
-    background: white;
+    background: rgba(255, 255, 255, 0.904);
     padding: 0 20px;
     margin: 0 10px;
     width: calc(33% - 20px);
@@ -45,13 +45,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #ff6348 ;
+    color: #fc5c65 ;
     cursor: pointer;
   }
   
   .card-icon{
     font-size: 28px;
-    background: #004177;
+    background: white;
     width: 60px;
     height: 60px;
     text-align: center;
@@ -62,7 +62,7 @@
   
   .card:hover .card-icon{
     background: none;
-    color: #ff6348;
+    color: #fc5c65;
     transform: scale(1.6);
   }
   
@@ -92,3 +92,11 @@
     }
   }
   
+
+  mark{
+      background-color:#fc5c65;
+  }
+
+  li{
+      color: black;
+  }
