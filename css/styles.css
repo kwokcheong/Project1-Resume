@@ -83,9 +83,18 @@ button:hover{
 
 .code__skills img{
     margin-top: 6px;
-    height: 8rem;
+    height: 140px;
     width: auto;
-    padding: 10px 60px;
+    padding: 10px 15px;
+}
+
+@media (max-width: 768px){
+    .code__skills img{
+        margin-top: 6px;
+        height: 90px;
+        width: auto;
+        padding: 1px 0.01px;
+    }
 }
 
 
@@ -219,10 +228,20 @@ body{
     width: 45vh;
     box-shadow: -12px -12px 12px 0 rgb(255, 255, 255, .024),
     12px 12px 12px 0 rgb(0, 0, 0, 0.40);
+    justify-content: center;
+    margin-top:55px;
+    margin-bottom: 30px;
+    
+}
+
+#newcard:hover{
+    transition: 3s ease-in-out;
+    box-shadow: inset -12px -12px 12px 0 rgb(255, 255, 255, .03),
+    inset 12px 12px 12px 0 rgb(0, 0, 0, 0.40);
 }
 
 #newcard img{
     height: 80px;
-    margin-top: 30px;
+    margin-top:45px;
 }
 
