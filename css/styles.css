@@ -235,8 +235,8 @@ body{
 }
 
 #newcard:hover{
-    transition: 3s ease-in-out;
-    box-shadow: inset -12px -12px 12px 0 rgb(255, 255, 255, .03),
+    
+    box-shadow: inset -12px -12px 12px 0 rgb(255, 255, 255, .024),
     inset 12px 12px 12px 0 rgb(0, 0, 0, 0.40);
 }
 
