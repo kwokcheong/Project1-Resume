@@ -1,4 +1,4 @@
-
+![Image of Yaktocat](images/webimg.png)
 
 This is my resume done up in a website, aimed towards providing my prospective employers with a unique and interactive resume viewing experience. The website contains various visual elements that highlights my current skillsets, educational background and portfolio - ```A video showcase of my past work experience, list of my coding experience, skills and passion, recent works, contact me section and infographic on my hobbies. ```
 
