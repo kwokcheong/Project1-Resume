@@ -111,3 +111,14 @@ div img{
     height: 400px;
 }
 
+.container img{
+  padding: 0;
+  height: 25rem; 
+  width: auto;
+}
+
+@media (max-width: 1030px ){
+  #header-sec img{
+    display: none;
+  }
+}

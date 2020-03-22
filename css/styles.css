@@ -178,13 +178,13 @@ section .content h2{
     background-attachment: fixed;
 
 }
-#fire h2{
+#spark h2{
     background-image: url("https://ak0.picdn.net/shutterstock/videos/5405240/thumb/1.jpg") ;
 }
-#water h2{
+#waves h2{
     background-image: url("https://miro.medium.com/max/3840/1*_laiUDqvJrVn5Skp8bpoSg.jpeg") ;
 }
-#grass h2{
+#forest h2{
     background-image: url("https://www.occrp.org/images/stories/CCWatch/investigations/forest.jpg") ;
 }
 
@@ -288,6 +288,8 @@ body{
     margin-top:45px;
 }
 
+/* Gallery */
+
 .xop-section {
     max-width: 1800px;
     margin: 0 auto;
@@ -336,7 +338,7 @@ body{
 }
 
 .xop-img-1{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(https://lh3.googleusercontent.com/proxy/FLitLwP7q4YJApNHhbLVj9byAtHZm19souS_uGbqp5JhJv-5Z0Eu73Qusgg1aJKFCSrKy4sTAuB6SpFKXgPNxG4XSA);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQBjyoOBJGQ4zS3SOAIIdLMOVf66CAYr2mB3OQTHIFwBVAKsgNx);
 }
 .xop-img-2{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(https://rahulsel.weebly.com/uploads/7/8/5/1/7851884/fibonacci-tree_orig.png);
@@ -351,7 +353,7 @@ body{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(https://i.ytimg.com/vi/c8wswUEfnrQ/maxresdefault.jpg);
 }
 .xop-img-6{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(https://lh3.googleusercontent.com/proxy/JHhOHpifIzNnuHbbHLbmIDr9Yi-QytIpLsGdpUM8M2qGKWtsYqZZt56OFdb4knF60K_kYbZa8micCOuVgpz7YG-b);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(https://i.ytimg.com/vi/qhWItvjk9Yg/maxresdefault.jpg);
 }
 
 .xop-info{
@@ -372,6 +374,8 @@ h3{
 .xop-info p{
     font-family: "Montserrat";
 }
+
+/* Footer */
 
 footer{
     background-color: whitesmoke;
