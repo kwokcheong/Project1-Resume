@@ -1,210 +1,231 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="css/video.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Teko:700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-    
-    <title>Kc Resume(Index)</title>
-  </head>
-  <body>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="css/video.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Teko:700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+  <title>Kc Resume(Index)</title>
+</head>
+
+<body>
+  <header>
+    <a href="about.html"><img class='logo' src="images/kc-profile.png" alt="logo"></a>
+    <nav>
+      <ul class="nav__links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="about.html#contact"><button>Contact</button></a>
+  </header>
+
+
+  <!-- herovid -->
+  <div class="row mt-1" id="hero">
     <header>
-      <a href="about.html"><img class='logo' src="images/kc-profile.png" alt="logo"></a>
-        <nav> 
-            <ul class="nav__links"> 
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-            <a class="cta" href="about.html#contact"><button>Contact</button></a>
-    </header>
-
-
-    <!-- herovid -->
-    <div class="row mt-1" id="hero">
-        <header>
-          <div class="overlay"></div>
-          <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="kc-vid-resume.mp4" type="video/mp4">
-          </video>
-          <div class="container h-100">
-            <div class="d-flex h-100 text-center align-items-center">
-              <div class="w-100 text-white">
-                <h1 class="display-3" style="font-family:'Teko'">Full-Stack Developer</h1>
-                <p class="lead mb-0" style="font-family:'Montserrat'"> Wong Kwok Cheong</p>
-              </div>
-            </div>
+      <div class="overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="kc-vid-resume.mp4" type="video/mp4">
+      </video>
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 class="display-3" style="font-family:'Teko'">Full-Stack Developer</h1>
+            <p class="lead mb-0" style="font-family:'Montserrat'"> Wong Kwok Cheong</p>
           </div>
-        </header>
+        </div>
       </div>
+    </header>
+  </div>
 
-<!--info -->
-    <div id="body2">
-      <h2 style="text-align: center; font-family: Montserrat;"> I can code in... </h2>
+  <!--info -->
+  <div id="body2">
+    <h2 style="text-align: center; font-family: Montserrat;"> I can code in... </h2>
     <div class="flexbox" id="my-skills">
-  
-        <ul class="code__skills">
-            <li><img class="skill" src="images/c.svg" alt="skill"></li>
-            <li><img class="skill" src="images/c-2975.svg" alt="skill"></li>
-            <li><img class="skill" src="images/python-5.svg" alt="skill"></li>
-            <li><img class="skill" src="images/html-5.svg" alt="skill"></li>
-            <li><img class="skill" src="images/css-5.svg" alt="skill"></li>
-            <li><img class="skill" src="images/javascript-4.svg" alt="skill"></li>
-            <li><img class="skill" src="images/django.svg" alt="skill"></li>
-        </ul>
-    </div>
-    </div>
 
-    <!--skills-->
-    <section>
+      <ul class="code__skills">
+        <li><img class="skill" src="images/c.svg" alt="skill"></li>
+        <li><img class="skill" src="images/c-2975.svg" alt="skill"></li>
+        <li><img class="skill" src="images/python-5.svg" alt="skill"></li>
+        <li><img class="skill" src="images/html-5.svg" alt="skill"></li>
+        <li><img class="skill" src="images/css-5.svg" alt="skill"></li>
+        <li><img class="skill" src="images/javascript-4.svg" alt="skill"></li>
+        <li><img class="skill" src="images/django.svg" alt="skill"></li>
+      </ul>
+    </div>
+  </div>
+
+  <!--skills-->
+  <section>
     <a name="skills"></a>
     <h2 style="text-align: center; font-family: Montserrat; margin-top: 10px;"> My skills and passion </h2>
   </section>
- 
-    <section id="info"> 
-        <div class='content' id="spark">
-            <h2>Web Development</h2>
-            <p> The best way to communicate to a wide audience is through a well crafted web-page. I have helped companies develop great engaging websites to help them convey their company message across the web. The websites I have created helped firms to kickstart their E-commerce business by providing a fully designed-from-scratch webpage with transaction functionality. </p>
-            <p style="color: rgb(122, 122, 122)"><br><br> 'KC has developed a great webpage for my company and it looks so professionally done.' - VJ</p>
-        </div>
-    </section>
-    <section> 
-        <div class='content' id="waves">
-            <h2>Machine Learning</h2>
-            <p>Machine learning is the study of algorithms and statistical models used to perform a specific task without using explicit instructions, relying on patterns and inference instead. I grew to love the realm of possibily machine learning has unlocked for us to be able to gather insights, train our program to identify and create object recognition for various purposes.</p>
-            <p style="color: rgb(122, 122, 122)"><br><br>Trained a program to recognise objects. Such as pear, people, road</p>
-          </div>
-    </section>
-    <section> 
-        <div class='content' id="forest">
-            <h2>Data Analytics</h2>
-            <p>Currently as a Business Analytic student, I employ many statistical methods such as linear regression, logistic regression, tree-based method to obtain valuable insights on a particular situation. I am in love with data as it unveils alot of mystery and key critical information which could help companies and governmental bodies make a more data-driven approach decision. </p>
-            <p style="color: rgb(122, 122, 122)"><br><br>Worked on linear regression techniques using R and visualization with BI</p>
-          </div>
-    </section>
 
-    <!-- start neumorphism-->
-    <div style="background-color: rgb(37, 37, 37); margin:0; padding:0;"><br>
-    <h2 style="text-align: center; font-family: Montserrat; color:white; margin:0"> Educational Background </h2>
+  <section id="info">
+    <div class='content' id="spark">
+      <h2>Web Development</h2>
+      <p> The best way to communicate to a wide audience is through a well crafted web-page. I have helped companies
+        develop great engaging websites to help them convey their company message across the web. The websites I have
+        created helped firms to kickstart their E-commerce business by providing a fully designed-from-scratch webpage
+        with transaction functionality. </p>
+      <p style="color: rgb(122, 122, 122)"><br><br> 'KC has developed a great webpage for my company and it looks so
+        professionally done.' - VJ</p>
     </div>
-    <section id="new">
-      <div class="container" id="newcard">
-        <div class="col-12 d-flex justify-content-center">
-        <img src="images/code-institute.png" alt="c++"/>
-        </div>
-        <div class="col-12" style="text-align: center;"> 
+  </section>
+  <section>
+    <div class='content' id="waves">
+      <h2>Machine Learning</h2>
+      <p>Machine learning is the study of algorithms and statistical models used to perform a specific task without
+        using explicit instructions, relying on patterns and inference instead. I grew to love the realm of possibily
+        machine learning has unlocked for us to be able to gather insights, train our program to identify and create
+        object recognition for various purposes.</p>
+      <p style="color: rgb(122, 122, 122)"><br><br>Trained a program to recognise objects. Such as pear, people, road
+      </p>
+    </div>
+  </section>
+  <section>
+    <div class='content' id="forest">
+      <h2>Data Analytics</h2>
+      <p>Currently as a Business Analytic student, I employ many statistical methods such as linear regression, logistic
+        regression, tree-based method to obtain valuable insights on a particular situation. I am in love with data as
+        it unveils alot of mystery and key critical information which could help companies and governmental bodies make
+        a more data-driven approach decision. </p>
+      <p style="color: rgb(122, 122, 122)"><br><br>Worked on linear regression techniques using R and visualization with
+        BI</p>
+    </div>
+  </section>
+
+  <!-- start neumorphism-->
+  <div style="background-color: rgb(37, 37, 37); margin:0; padding:0;"><br>
+    <h2 style="text-align: center; font-family: Montserrat; color:white; margin:0"> Educational Background </h2>
+  </div>
+  <section id="new">
+    <div class="container" id="newcard">
+      <div class="col-12 d-flex justify-content-center">
+        <img src="images/code-institute.png" alt="c++" />
+      </div>
+      <div class="col-12" style="text-align: center;">
         <h2 style="color: white;">Diploma in Software Development </h2>
         <p style="color: white;"> </p>
-        </div>
       </div>
-      <div class="container" id="newcard">
-        <div class="col-12 d-flex justify-content-center">
-        <img src="images/nuslogo.png" alt="c++"/>
-        </div>
-        <div class="col-12" style="text-align: center;">
-        <h2 style="color: white;">BTech(Hons) .<br>Business Analytics </h2>
-        </div>  
     </div>
     <div class="container" id="newcard">
       <div class="col-12 d-flex justify-content-center">
-        <img src="images/dnsnus.png" alt="c++"/>
-        </div>
-        <div class="col-12" style="text-align: center;">
+        <img src="images/nuslogo.png" alt="c++" />
+      </div>
+      <div class="col-12" style="text-align: center;">
+        <h2 style="color: white;">BTech(Hons) .<br>Business Analytics </h2>
+      </div>
+    </div>
+    <div class="container" id="newcard">
+      <div class="col-12 d-flex justify-content-center">
+        <img src="images/dnsnus.png" alt="c++" />
+      </div>
+      <div class="col-12" style="text-align: center;">
         <h2 style="color: white;"> Teaching Assistant (Junior)</h2>
-        </div> 
-  </div>
-
-    </section>
-
-    <!-- start Gallery-->
-    <a name="projects"></a>
-    <h1  style="text-align: center; font-family: Montserrat; margin-top:70px;"> My Recent Works</h1>
-    <section>
-      <div class="xop-section" style="margin:0px;">
-        <ul class="xop-grid">
-          <li>
-            <div class="xop-box xop-img-1">
-              <a href="#">
-                <h3>BATTLESHIPS</h3>
-                <p>Used Rand() to create a game!</p>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="xop-box xop-img-2">
-              <a href="#">
-                <h3> FIBONACCI TREE </h3>
-                <p>Getting fun with recursion.</p>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="xop-box xop-img-3">
-              <a href="#">
-                <h3> PREDICTION MODEL</h3>
-                <p>Extrapolating data to perform prediction with R</p>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="xop-box xop-img-4">
-              <a href="#">
-                <h3>DATA VISUALIZATION</h3>
-                <p>Use BI software</p>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="xop-box xop-img-5">
-              <a href="#">
-                <h3> MINESWEEPER</h3>
-                <p>Using Struct 2D array and Rand().</p>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="xop-box xop-img-6">
-              <a href="#">
-                <h3> Mayan Calendar</h3>
-                <p>Deep understanding for unique test cases</p>
-              </a>
-            </div>
-          </li>
-        </ul>
       </div>
-    </section>
+    </div>
 
-    <!-- footer -->
-    <footer>
-      <div class="footer-container">
-        <div>
-          <div class="social-media">
-            <a href="https://www.facebook.com/kwok.cheong.3"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com/kwokasaur"><i class="fab fa-twitter"></i></a>
-            <a href="https://imgron.com/user/kwokasaur"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/kwok-cheong-wong-12334a140/"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://github.com/kwokcheong"><i class="fab fa-github"></i></a>
+  </section>
+
+  <!-- start Gallery-->
+  <a name="projects"></a>
+  <h1 style="text-align: center; font-family: Montserrat; margin-top:70px;"> My Recent Works</h1>
+  <section>
+    <div class="xop-section" style="margin:0px;">
+      <ul class="xop-grid">
+        <li>
+          <div class="xop-box xop-img-1">
+            <a href="#">
+              <h3>BATTLESHIPS</h3>
+              <p>Used Rand() to create a game!</p>
+            </a>
           </div>
-            <p class="rights-text">@ 2020 Created by Kwok Cheong Wong. All Rights Reserved.</p>
-        </div>
-      </div>
-    </footer>
+        </li>
+        <li>
+          <div class="xop-box xop-img-2">
+            <a href="#">
+              <h3> FIBONACCI TREE </h3>
+              <p>Getting fun with recursion.</p>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="xop-box xop-img-3">
+            <a href="#">
+              <h3> PREDICTION MODEL</h3>
+              <p>Extrapolating data to perform prediction with R</p>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="xop-box xop-img-4">
+            <a href="#">
+              <h3>DATA VISUALIZATION</h3>
+              <p>Use BI software</p>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="xop-box xop-img-5">
+            <a href="#">
+              <h3> MINESWEEPER</h3>
+              <p>Using Struct 2D array and Rand().</p>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="xop-box xop-img-6">
+            <a href="#">
+              <h3> Mayan Calendar</h3>
+              <p>Deep understanding for unique test cases</p>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
 
-      
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-   
-  </body>
+  <!-- footer -->
+  <footer>
+    <div class="footer-container">
+      <div>
+        <div class="social-media">
+          <a href="https://www.facebook.com/kwok.cheong.3"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/kwokasaur"><i class="fab fa-twitter"></i></a>
+          <a href="https://imgron.com/user/kwokasaur"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/kwok-cheong-wong-12334a140/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/kwokcheong"><i class="fab fa-github"></i></a>
+        </div>
+        <p class="rights-text">@ 2020 Created by Kwok Cheong Wong. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
