@@ -32,6 +32,7 @@ To maintain the simple and easy to consume aspect of the website, I avoided over
 ## Features Left to Implement
 * I would like to implement javascript for a "coin" effect on the logo. Add more animation for image floating in upon scroll, change the navigation bar to a hamburger, include the PDF file of my CV into the website.
 * For functionality, I would add a section for employers to write and send an email to me directly from the website itself. 
+* To improve the mobile responsiveness of my about page "Hi, my name..."
 
 ## Testing
 Employers will be able to view my video the instance they enter the webpage. 
