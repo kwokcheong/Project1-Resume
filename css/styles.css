@@ -5,6 +5,11 @@ body{
     background-color: white;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+  
+
 header { 
     box-sizing: border-box;
     margin: 0;
